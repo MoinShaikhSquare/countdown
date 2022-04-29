@@ -16,7 +16,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #eee;
+  background: rgb(0, 0, 0);
 }
 .flip-clock {
   text-align: center;
@@ -48,8 +48,8 @@ body {
 .card__back::after {
   display: block;
   height: 0.72em;
-  color: #ccc;
-  background: #222;
+  color: rgb(0, 0, 0);
+  background: #fff;
   padding: 0.25em 0.25em;
   border-radius: 0.15em 0.15em 0 0;
   backface-visibility: hidden;
@@ -58,12 +58,12 @@ body {
   transform: translateZ(0);
 }
 .card__bottom {
-  color: #fff;
+  color: rgb(0, 0, 0);
   position: absolute;
   top: 50%;
   left: 0;
-  border-top: solid 1px #000;
-  background: #393939;
+  border-top: solid 1px rgb(206, 201, 201);
+  background: #fff;
   border-radius: 0 0 0.15em 0.15em;
   pointer-events: none;
   overflow: hidden;
