@@ -162,3 +162,7 @@ body {
     z-index: 5;
   }
 }
+
+#logo {
+  height: 30vh;
+}
